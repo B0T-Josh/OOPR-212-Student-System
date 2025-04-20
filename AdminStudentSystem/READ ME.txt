@@ -1,0 +1,14 @@
+!!!IMPORTANT PROCEDURE!!!
+
+Refractor file from NetBeans. Open Services from the left panel pallet.
+Right click on Databases, click New Connection, select driver "MySQL (Connector/J Driver)".
+Click Add, open this folder, navigate to folder named "dist", then open "lib", 
+select the mysql-connector-j-9.2.0.jar file. Click "Next" until the end and click "Finish".
+
+From the left panel, right click the project folder, go to "Properties". On "Build" go to "Deployment",
+make sure that the only check box there is on check. Close the panel and restart your NetBeans. 
+After restart, right click the project folder, then click on "Clean and Build", then wait for it to finish.
+After completing, from your file manager, go to the "NetBeansProject/AdminStudentSystem", and run the "AdminStudentSystem.exe" Shortcut file.
+
+Make sure that your Database is open. Now check if the necessary Database, User, and Tables are created. 
+Report every error.
